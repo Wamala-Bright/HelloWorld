@@ -1,0 +1,19 @@
+WIDTH = 800
+HEIGHT = 600
+
+FPS = 60
+
+TITLE = "Treasure Runner Framework"
+
+WHITE = (255,255,255)
+BLACK = (0,0,0)
+
+BLUE = (0,100,255)
+RED = (255,0,0)
+YELLOW = (255,220,0)
+GREEN = (0,200,0)
+
+PLAYER_SPEED = 5
+ENEMY_SPEED = 2
+
+PLAYER_HEALTH = 100
