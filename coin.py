@@ -6,7 +6,6 @@ from settings import *
 
 class Coin:
 
-
     def __init__(self):
 
         self.rect = pygame.Rect(
@@ -16,24 +15,21 @@ class Coin:
             25
         )
 
-
+        self.random_position()
 
     def random_position(self):
 
         self.rect.x = random.randint(
             0,
-            WIDTH-25
+            WIDTH - self.rect.width
         )
-
 
         self.rect.y = random.randint(
             0,
-            HEIGHT-25
+            HEIGHT - self.rect.height
         )
 
-
-
-    def draw(self,screen):
+    def draw(self, screen):
 
         pygame.draw.rect(
             screen,
